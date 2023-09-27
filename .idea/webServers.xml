@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="665706ab-e3fb-467d-9472-7a357c8e074f" name="pwp-conchas-con-amor" url="https://ddc-web-student.cnm.edu/~atrevizo4/pwp-conchas-con-amor">
+        <fileTransfer rootFolder="/home/atrevizo4/public_html/pwp-conchas-con-amor" accessType="SFTP" host="ddc-web-student.cnm.edu" port="22" sshConfigId="7cdcc81c-bec2-4f6d-80e1-308731bf1d2c" sshConfig="atrevizo4@ddc-web-student.cnm.edu:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ddc-web-student.cnm.edu" id="7cdcc81c-bec2-4f6d-80e1-308731bf1d2c" port="22" nameFormat="DESCRIPTIVE" username="atrevizo4" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
