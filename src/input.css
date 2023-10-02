@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background-image: url("./images/fourth-heading.jpg");
+    background-size: cover;
+    height: 570px;
+}
+
