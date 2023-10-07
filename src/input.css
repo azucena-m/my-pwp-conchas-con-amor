@@ -4,11 +4,22 @@
 
 body {
     font-family: 'Dosis', sans-serif;
+    /*background: #FAF7EE;*/
 }
 
 header {
-    background-image: url("./images/fourth-heading.jpg");
+    background: url("./images/fourth-heading.jpg") no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 570px;
+    filter: drop-shadow(10px 8px 10px #655858)
+    /*height: 570px;*/
 }
 
+
+
+/*.owner {*/
+/*    height: 200px;*/
+/*    width: 150px;*/
+/*}*/

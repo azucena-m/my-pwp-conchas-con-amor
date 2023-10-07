@@ -12,66 +12,99 @@ data-theme="autumn">
     <title>PWP-Conchas Con Amor</title>
 </head>
 <body>
-<header id="header" class="">
+<header id="header" class="shadow-2xl">
+    <div class="shadow-2xl">
     <nav class="flex justify-end gap-x-16">
         <div class="basis-10/12 pt-6 uppercase">
         <ul class="flex w-auto justify-end gap-x-16">
             <li>home</li>
-            <li>what i offer</li>
-            <li>about me</li>
-            <li>contact</li>
+            <li><a href="#offer">what i offer</a></li>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#contactMe">contact me</a></li>
         </ul>
         </div>
         <div class="basis-1/12 ">
             <img class="" src="./images/logo-dos.png" alt="conchas con amor logo">
         </div>
     </nav>
-    <div class="ml-16 pt-64">
+    <div class="ml-16 pt-64 pb-8">
         <h1 class="text-8xl">Conchas Con Amor</h1>
         <h2 class="text-6xl italic pl-14 mt-8 text-white">creative artisanal conchas</h2>
     </div>
+    </div>
 </header>
 
-<main class="my-20">
-    <section class="container mx-auto bg-amber-200 my-20">
-        <h2>what i offer</h2>
-        <div>
-            <p>Indulge in the delightful world of conchas like never before with our artisanal conchas. We specialize in crafting these beloved Mexican sweet bread treasures, making every moment a special occasion. Whether you're celebrating a birthday, anniversary, or simply craving a delicious treat, we have you covered.</p>
-            <p>What sets us apart is our commitment to inclusivity and customization. We understand that dietary preferences and restrictions vary, which is why we offer a wide range of options to cater to everyone's needs. Our menu features traditional conchas, along with gluten-free, vegan, sugar-free, and lactose-free alternatives, ensuring that everyone can savor the joy of conchas without worry.</p>
-            <p>Looking for something unique and personalized? We're here to make your concha dreams come true. Our bakery welcomes custom orders, allowing you to choose your favorite flavors, colors, and designs for conchas that perfectly match your special event or celebration.</p>
+
+    <section class=" shadow-xl">
+        <div class="container mx-auto py-24">
+        <h2 id="offer" class="text-center uppercase text-4xl pb-8 underline">what i offer</h2>
+        <div class="container mx-auto text-xl">
+            <p class="py-4">Indulge in the delightful world of conchas like never before with my artisanal conchas. I specialize in crafting these beloved Mexican sweet bread treasures, making every moment a special occasion. Whether you're celebrating a birthday, anniversary, or simply craving a delicious treat, I have you covered.</p>
+            <p class="py-4">What sets me apart is my commitment to inclusivity and customization. I understand that dietary preferences and restrictions vary, which is why I offer a wide range of options to cater to everyone's needs. My menu features traditional conchas, along with gluten-free, vegan, sugar-free, and lactose-free alternatives, ensuring that everyone can savor the joy of conchas without worry.</p>
+            <p class="py-4">Looking for something unique and personalized? I'm here to make your concha dreams come true. My bakery welcomes custom orders, allowing you to choose your favorite flavors, colors, and designs for conchas that perfectly match your special event or celebration.</p>
+        </div >
+            <div class="flex justify-between text-center">
+            <div>
+                <span><img class="w-10 h-10 " src="images/leaf-icon.png" alt=""></span>
+                <span>vegan</span>
+            </div>
+            <div>
+                <span><img class="w-10 h-10" src="images/grain-wheat-icon.png" alt=""></span>
+                <span>gluten-free</span>
+            </div>
+            <div>
+                <span><img class="w-10 h-10" src="images/sweet-icon.png" alt=""></span>
+                <span>sugar-free</span>
+            </div>
+            <div>
+                <span><img class="w-8 h-10" src="images/milk-water-bottle-icon.png" alt=""></span>
+                <span>lactose-free</span>
+            </div>
+            </div>
         </div>
     </section>
-    <section class="">
-        <h2>about me</h2>
-        <div class="flex flex-wrap">
-            <img src="images/owner-image.jpg" alt="image of business owner">
-            <p>I'm a dedicated ER nurse who found an unexpected passion in the world of custom artisanal conchas. Balancing the intensity of my nursing career with the sweetness of concha creation has been an exciting journey. It all began as a hobby, but my love for crafting these delicious treats led to the birth of my own concha bakery. I take pride in bringing joy through personalized concha creations. Join me on this delightful adventure where I'm making moments sweeter one concha at a time.</p>
+
+    <section id="about" class="py-24 bg-amber-100">
+        <div class="container mx-auto">
+            <h2 class="text-center text-4xl uppercase underline">about me</h2>
+            <div class="flex gap-x-20 pt-14">
+                <img class="max-h-72 max-w-lg rounded-lg" src="images/owner-image.jpg" alt="image of business owner">
+                <p class="text-2xl">I'm a dedicated ER nurse who found an unexpected passion in the world of custom artisanal conchas. Balancing the intensity of my nursing career with the sweetness of concha creation has been an exciting journey. It all began as a hobby, but my love for crafting these delicious treats led to the birth of my own concha bakery. I take pride in bringing joy through personalized concha creations. Join me on this delightful adventure where I'm making moments sweeter one concha at a time.</p>
+            </div>
         </div>
     </section>
-    <section>
-        <h2>contact me</h2>
-        <p>Please send me your questions or requests through this contact form. I review this daily throughout the day. You can also reach me by Instagram or email.  I do not have a set schedule yet, but I will be in contact with you soon!</p>
-        <div>
-            <form action="">
-                <label>
-                    <input type="text">
-                </label>
-                <label>
-                    <input type="text">
-                </label>
-                <label>
-                    <input type="email">
-                </label>
+    <section id="contactMe" class="my-24 h-full">
+        <h2 class="text-4xl uppercase underline text-center pb-8">contact me</h2>
+        <p class="container mx-auto text-xl pb-8">Please send me your questions or requests through this contact form. I review this daily throughout the day. You can also reach me by Instagram or email.  I do not have a set schedule yet, but I will be in contact with you soon!</p>
+        <div class="container mx-auto columns-2 " >
+            <form class="form-control gap-1" action="">
+                <div>
+                    <label for="name">
+                        <input class="input input-bordered input-sm w-full max-w-md" id="name" type="text" placeholder="Your name">
+                    </label>
+                </div>
+                <div>
+                    <label for="phoneNumber">
+                        <input class="input input-bordered input-sm w-full max-w-md" id="phoneNumber" type="text" placeholder="Your phone number">
+                    </label>
+                </div>
+                <div>
+                    <label for="email">
+                        <input class="input input-bordered input-sm w-full max-w-md" id="email" type="email" placeholder="Your email">
+                    </label>
+                </div>
             </form>
             <form action="">
-                <label>
-                    <input type="text">
+                <label for="questionOrRequest">
+                    <textarea class=" textarea textarea-bordered textarea-lg w-full max-w-md" name="questionOrRequest" id="questionOrRequest" placeholder="Enter your questions or requests here!"></textarea>
                 </label>
             </form>
-            <button>Submit</button>
         </div>
+        <div class="text-center my-10">
+            <button class="btn button-accent btn-sm btn-wide">Submit</button>
+        </div>
+
     </section>
-</main>
 
 <footer>
     <span></span>
