@@ -7,19 +7,22 @@ body {
     /*background: #FAF7EE;*/
 }
 
+/*header {*/
+/*    background: url("./images/fourth-heading.jpg") no-repeat center center ;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*    filter: drop-shadow(10px 8px 10px #655858)*/
+/*}*/
 header {
-    background: url("./images/fourth-heading.jpg") no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    filter: drop-shadow(10px 8px 10px #655858)
-    /*height: 570px;*/
+    background: url("./images/fourth-heading.jpg") center center ;
+    filter: drop-shadow(10px 8px 10px #786a6a)
+}
+
+#about {
+    filter: drop-shadow(6px 8px 6px #c4aeae)
 }
 
 
 
-/*.owner {*/
-/*    height: 200px;*/
-/*    width: 150px;*/
-/*}*/

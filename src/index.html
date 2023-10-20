@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"
-data-theme="autumn">
+data-theme="autumn, bumblebee">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,103 +12,121 @@ data-theme="autumn">
     <title>PWP-Conchas Con Amor</title>
 </head>
 <body>
-<header id="header" class="shadow-2xl">
-    <div class="shadow-2xl">
-    <nav class="flex justify-end gap-x-16">
-        <div class="basis-10/12 pt-6 uppercase">
-        <ul class="flex w-auto justify-end gap-x-16">
-            <li>home</li>
-            <li><a href="#offer">what i offer</a></li>
-            <li><a href="#about">about me</a></li>
-            <li><a href="#contactMe">contact me</a></li>
-        </ul>
+<header id="header" class="bg-no-repeat bg-cover" >
+    <nav class="flex gap-x-14">
+        <div class="navbar ">
+            <div class="navbar-start ">
+                <div class="dropdown md:hidden">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 uppercase md:hidden">
+                        <li><a href="#offer">what i offer</a></li>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#contactMe">contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="basis-4/12 md:basis-11/12 pt-6 uppercase md:justify-end">
+            <ul class="hidden md:flex md:flex-wrap md:w-auto md:justify-end md:gap-x-16 md:text-xl ">
+                <li>home</li>
+                <li class="hover:text-primary"><a href="#offer">what i offer</a></li>
+                <li class="hover:text-primary"><a href="#about">about me</a></li>
+                <li class="hover:text-primary"><a href="#contactMe">contact me</a></li>
+            </ul>
         </div>
-        <div class="basis-1/12 ">
+        <div class="flex pl-36 md:pl-20 justify-end basis-6/12 md:basis-2/12 ">
             <img class="" src="./images/logo-dos.png" alt="conchas con amor logo">
         </div>
+        </div>
     </nav>
-    <div class="ml-16 pt-64 pb-8">
-        <h1 class="text-8xl">Conchas Con Amor</h1>
-        <h2 class="text-6xl italic pl-14 mt-8 text-white">creative artisanal conchas</h2>
-    </div>
+    <div class="ml-16 pt-64 pb-10">
+        <h1 class="text-6xl md:text-8xl text-white md:text-base-content md:pb-4 ">Conchas Con Amor</h1>
+        <h2 class="text-3xl md:text-5xl italic pl-14 md:mt-8 text-white">creative artisanal conchas</h2>
     </div>
 </header>
 
-
-    <section class=" shadow-xl">
-        <div class="container mx-auto py-24">
+<section class="offer shadow-3xl bg-[#FAF7EE]">
+    <div class="container mx-auto py-24 max-w-7xl">
         <h2 id="offer" class="text-center uppercase text-4xl pb-8 underline">what i offer</h2>
-        <div class="container mx-auto text-xl">
+        <div class="container mx-auto px-6 text-xl">
             <p class="py-4">Indulge in the delightful world of conchas like never before with my artisanal conchas. I specialize in crafting these beloved Mexican sweet bread treasures, making every moment a special occasion. Whether you're celebrating a birthday, anniversary, or simply craving a delicious treat, I have you covered.</p>
             <p class="py-4">What sets me apart is my commitment to inclusivity and customization. I understand that dietary preferences and restrictions vary, which is why I offer a wide range of options to cater to everyone's needs. My menu features traditional conchas, along with gluten-free, vegan, sugar-free, and lactose-free alternatives, ensuring that everyone can savor the joy of conchas without worry.</p>
             <p class="py-4">Looking for something unique and personalized? I'm here to make your concha dreams come true. My bakery welcomes custom orders, allowing you to choose your favorite flavors, colors, and designs for conchas that perfectly match your special event or celebration.</p>
         </div >
-            <div class="flex justify-between text-center">
+        <div class="flex justify-between text-center pt-14 px-8 md:px-20 text-xs md:text-lg">
             <div>
                 <span><img class="w-10 h-10 " src="images/leaf-icon.png" alt=""></span>
                 <span>vegan</span>
             </div>
             <div>
-                <span><img class="w-10 h-10" src="images/grain-wheat-icon.png" alt=""></span>
+                <span><img class="w-10 h-10 ml-4" src="images/grain-wheat-icon.png" alt=""></span>
                 <span>gluten-free</span>
             </div>
             <div>
-                <span><img class="w-10 h-10" src="images/sweet-icon.png" alt=""></span>
+                <span><img class="w-10 h-10 ml-4" src="images/sweet-icon.png" alt=""></span>
                 <span>sugar-free</span>
             </div>
             <div>
-                <span><img class="w-8 h-10" src="images/milk-water-bottle-icon.png" alt=""></span>
+                <span><img class="w-7 h-10 ml-4" src="images/milk-water-bottle-icon.png" alt=""></span>
                 <span>lactose-free</span>
             </div>
             </div>
         </div>
-    </section>
+</section>
 
-    <section id="about" class="py-24 bg-amber-100">
-        <div class="container mx-auto">
-            <h2 class="text-center text-4xl uppercase underline">about me</h2>
-            <div class="flex gap-x-20 pt-14">
-                <img class="max-h-72 max-w-lg rounded-lg" src="images/owner-image.jpg" alt="image of business owner">
-                <p class="text-2xl">I'm a dedicated ER nurse who found an unexpected passion in the world of custom artisanal conchas. Balancing the intensity of my nursing career with the sweetness of concha creation has been an exciting journey. It all began as a hobby, but my love for crafting these delicious treats led to the birth of my own concha bakery. I take pride in bringing joy through personalized concha creations. Join me on this delightful adventure where I'm making moments sweeter one concha at a time.</p>
+<section id="about" class="py-20 px-6 bg-[#EEE5D3] shadow-xl z-50">
+    <div class="container mx-auto max-w-7xl pb-6">
+        <h2 class="text-center text-4xl uppercase underline">about me</h2>
+        <div class="flex flex-col md:flex-row gap-x-20 pt-14">
+            <div class="flex justify-center">
+                <img class="h-56 w-36 md:max-h-72 md:max-w-lg rounded-lg" src="images/owner-image.jpg" alt="image of business owner">
+            </div>
+            <div>
+                <p class="text-2xl pt-6">I'm a dedicated ER nurse who found an unexpected passion in the world of custom artisanal conchas. Balancing the intensity of my nursing career with the sweetness of concha creation has been an exciting journey. It all began as a hobby, but my love for crafting these delicious treats led to the birth of my own concha bakery. I take pride in bringing joy through personalized concha creations. Join me on this delightful adventure where I'm making moments sweeter one concha at a time.</p>
             </div>
         </div>
-    </section>
-    <section id="contactMe" class="my-24 h-full">
-        <h2 class="text-4xl uppercase underline text-center pb-8">contact me</h2>
-        <p class="container mx-auto text-xl pb-8">Please send me your questions or requests through this contact form. I review this daily throughout the day. You can also reach me by Instagram or email.  I do not have a set schedule yet, but I will be in contact with you soon!</p>
-        <div class="container mx-auto columns-2 " >
-            <form class="form-control gap-1" action="">
+    </div>
+</section>
+<section id="contactMe" class=" h-full bg-[#FAF7EE] py-20">
+    <h2 class="text-4xl uppercase underline text-center pb-10">contact me</h2>
+    <p class="container mx-auto text-xl pb-12 px-6 max-w-7xl">Please send me your questions or requests through this contact form. I review this daily throughout the day. You can also reach me by Instagram or email.  I do not have a set schedule yet, but I will be in contact with you soon!</p>
+    <div class="container mx-auto space-y-4 md:columns-2 px-4 md:pl-20 max-w-7xl" >
+        <form class="" action="mailto:atrevizo14@gmail.com" method="post" enctype="text/plain">
+            <div class="space-y-3 flex flex-col ">
                 <div>
-                    <label for="name">
-                        <input class="input input-bordered input-sm w-full max-w-md" id="name" type="text" placeholder="Your name">
-                    </label>
+                    <label for="name"></label>
+                    <input class="input input-bordered input-sm w-full max-w-lg hover:border-accent" id="name" type="text" placeholder="Your name" required>
                 </div>
                 <div>
-                    <label for="phoneNumber">
-                        <input class="input input-bordered input-sm w-full max-w-md" id="phoneNumber" type="text" placeholder="Your phone number">
-                    </label>
+                    <label for="phoneNumber"></label>
+                    <input class="input input-bordered input-sm w-full max-w-lg hover:border-accent" id="phoneNumber" type="text" placeholder="Your phone number" required>
                 </div>
                 <div>
-                    <label for="email">
-                        <input class="input input-bordered input-sm w-full max-w-md" id="email" type="email" placeholder="Your email">
-                    </label>
+                    <label for="email"></label>
+                    <input class="input input-bordered input-sm w-full max-w-lg hover:border-accent" id="email" type="email" placeholder="Your email" required>
                 </div>
-            </form>
-            <form action="">
-                <label for="questionOrRequest">
-                    <textarea class=" textarea textarea-bordered textarea-lg w-full max-w-md" name="questionOrRequest" id="questionOrRequest" placeholder="Enter your questions or requests here!"></textarea>
-                </label>
-            </form>
-        </div>
-        <div class="text-center my-10">
-            <button class="btn button-accent btn-sm btn-wide">Submit</button>
-        </div>
+            </div>
+            <div class="space-y-3">
+            <label for="message"></label>
+            <textarea class=" textarea textarea-bordered textarea-lg w-full max-w-lg hover:border-accent" name="questionOrRequest" id="message" placeholder="Enter your questions or requests here!" required></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="text-center my-12">
+        <button class="btn button-accent btn-sm btn-wide bg-accent/70 hover:bg-accent-focus">Submit</button>
+    </div>
+</section>
 
-    </section>
-
-<footer>
-    <span></span>
-    <span></span>
+<footer class="bg-[#EEE5D3] pt-4">
+    <div class="flex justify-center space-x-20">
+    <span><a href="mailto:carrillomariela5@gmail.com"><i class="fa-regular fa-envelope text-3xl hover:text-accent-focus"></i></a></span>
+    <span><a href="https://instagram.com/conchasconamor?igshid=MzRIODBiNWFIZa=="><i class="fa-brands fa-instagram text-3xl hover:text-accent-focus"></i></a></span>
+    </div>
+    <div>
+        <p class="text-center pt-4 text-zinc-600 text-xs">Copyright © 2023 - Azucena Marroquin</p>
+    </div>
 </footer>
+<script src="https://kit.fontawesome.com/8291f120fd.js" crossorigin="anonymous"></script>
 </body>
 </html>
