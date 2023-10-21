@@ -1779,11 +1779,6 @@ html {
   margin-right: auto;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -1965,11 +1960,6 @@ html {
   padding-right: 2rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1987,6 +1977,10 @@ html {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pb-6 {
@@ -2019,10 +2013,6 @@ html {
 
 .pt-64 {
   padding-top: 16rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -2095,24 +2085,7 @@ html {
 
 body {
   font-family: 'Dosis', sans-serif;
-  /*background: #FAF7EE;*/
 }
-
-/*header {*/
-
-/*    background: url("./images/fourth-heading.jpg") no-repeat center center ;*/
-
-/*    -webkit-background-size: cover;*/
-
-/*    -moz-background-size: cover;*/
-
-/*    -o-background-size: cover;*/
-
-/*    background-size: cover;*/
-
-/*    filter: drop-shadow(10px 8px 10px #655858)*/
-
-/*}*/
 
 header {
   background: url("./images/fourth-heading.jpg") center center ;
@@ -2234,6 +2207,13 @@ header {
   .md\:text-base-content {
     --tw-text-opacity: 1;
     color: hsl(var(--bc) / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
   }
 }
 
