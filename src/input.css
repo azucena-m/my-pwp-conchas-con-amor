@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url("./images/fourth-heading.jpg") center center ;
+    background: url("../docs/images/fourth-heading.jpg") center center ;
     filter: drop-shadow(10px 8px 10px #786a6a)
 }
 

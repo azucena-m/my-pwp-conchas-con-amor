@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aee5d725-b6d3-40df-ac72-989238e2b953" name="conchas-con-amor">
+        <fileTransfer rootFolder="/var/www/azucena-marroquin.com/html" accessType="SFTP" host="azucena-marroquin.com" port="22" sshConfigId="dfeed378-d9e7-4052-a8eb-2d97d9ed9852" sshConfig="azucenam@azucena-marroquin.com:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./docs/**/*.{html,js}",
+  "./index.html"],
   theme: {
     backgroundSize: {
       'auto': 'auto',
